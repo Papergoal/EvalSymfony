@@ -3,9 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29230.47
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temporaire", "Temporaire.csproj", "{9FAB8DBB-A2B0-41C9-9F91-B03CB268BD55}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evaluation.ORM", "Evaluation.ORM.csproj", "{9FAB8DBB-A2B0-41C9-9F91-B03CB268BD55}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Temporaire.Console", "..\Temporaire.Console\Temporaire.Console.csproj", "{BFDF2682-FEE0-47F8-98CE-7AB4FB1C157C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Evaluation.Console", "..\Temporaire.Console\Evaluation.Console.csproj", "{BFDF2682-FEE0-47F8-98CE-7AB4FB1C157C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

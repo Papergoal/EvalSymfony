@@ -5,15 +5,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Temporaire
+namespace Evaluation.ORM
 {
     class ContexteBDD : DbContext
     {
 
         public ContexteBDD()
-            :base ("ChaineDeConnection")
+            :base ("ChaineDeConnexion")
         {
             
         }
+
+        public DbSet<Client> Clients { get; set; }
+        public DbSet<Jeu> Jeux { get; set; }
+        public DbSet<Reservation> Reservations { get; set; }
     }
 }
+
